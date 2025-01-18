@@ -73,3 +73,12 @@ body {
 .flex-direction-column {
     flex-direction: column;
 }
+
+p {
+    font-size: var(--fs-body);
+}
+
+.card-header {
+    display: flex;
+    column-gap: 1rem;
+}
