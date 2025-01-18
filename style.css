@@ -6,19 +6,19 @@
     /* Primary */
     --Very-Dark-Magenta: hsl(300, 43%, 22%);
     --Soft-Pink: hsl(333, 80%, 67%);
-    
+
     /* Neutral */
     --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
     --Light-Grayish-Magenta: hsl(300, 24%, 96%);
     --White: hsl(0, 0%, 100%);
-    
+
     /* Font style */
     --font-family-default: 'League Spartan', sans-serif;
 
     /* Font Sizes */
     --fs-body: 0.9375rem;
-    --fs-heading1: 1.5rem;
-    --fs-heading2: 1.25rem;
+    --fs-heading1: 2.5rem;
+    --fs-heading2: 1rem;
 
     /* Font weights/boldness */
     --fw-bolder: 700;
@@ -56,7 +56,7 @@ body {
     min-height: 100vh;
 }
 
-.ht-100{
+.ht-100 {
     min-height: 100vh;
 }
 
@@ -80,5 +80,102 @@ p {
 
 .card-header {
     display: flex;
+    align-items: center;
     column-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+    color: var(--Very-Dark-Magenta);
+}
+
+h1 {
+    font-size: var(--fs-heading1);
+    font-weight: var(--fw-bolder);
+}
+
+h2 {
+    font-size: var(--fs-heading2);
+    font-weight: var(--fw-bolder);
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    width: 956px;
+    justify-content: space-between;
+}
+
+.heading-and-description {
+    width: 330px;
+}
+
+.heading-and-description p {
+    margin-top: 1.75rem;
+    color: var(--Dark-Grayish-Magenta);
+}
+
+.five-stars {
+    column-gap: .25rem;
+}
+
+.customer-rating {
+
+    row-gap: 1rem;
+}
+
+main {
+    row-gap: 2.5rem;
+}
+
+.rating {
+    column-gap: 2rem;
+    background-color: var(--Light-Grayish-Magenta);
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+}
+
+.rating-2 {
+    margin-left: 3.25rem;
+}
+.rating-3 {
+    margin-left: 6.5rem;
+}
+
+.cards {
+    column-gap: 1.75rem;
+}
+
+.card {
+    width: 300px;
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--White);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.profile-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-details h3 {
+    font-size: var(--fs-heading2);
+    font-weight: var(--fw-bolder);
+}
+
+.profile-details h3::after {
+    margin-top: .25rem;
+    content: "Verified Buyer";
+    display: block;
+    color: var(--Soft-Pink);
+}
+
+.card-2{
+    margin-top: 2.25rem;
+}
+.card-3{
+    margin-top: 4.5rem;
 }
