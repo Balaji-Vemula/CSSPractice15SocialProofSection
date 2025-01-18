@@ -16,9 +16,9 @@
     --font-family-default: 'League Spartan', sans-serif;
 
     /* Font Sizes */
-    --fs-body: 0.9375rem;
-    --fs-heading1: 2.5rem;
-    --fs-heading2: 1rem;
+    --fs-body: 1rem;
+    --fs-heading1: 4rem;
+    --fs-heading2: 1.25rem;
 
     /* Font weights/boldness */
     --fw-bolder: 700;
@@ -103,12 +103,12 @@ h2 {
 }
 
 .header-section {
-    width: 956px;
+    width: 1091px;
     justify-content: space-between;
 }
 
 .heading-and-description {
-    width: 330px;
+    width: 400px;
 }
 
 .heading-and-description p {
@@ -117,7 +117,7 @@ h2 {
 }
 
 .five-stars {
-    column-gap: .25rem;
+    column-gap: .5rem;
 }
 
 .customer-rating {
@@ -130,7 +130,7 @@ main {
 }
 
 .rating {
-    column-gap: 2rem;
+    column-gap: 2.5rem;
     background-color: var(--Light-Grayish-Magenta);
     padding: 1.5rem 2rem;
     border-radius: 10px;
@@ -148,7 +148,7 @@ main {
 }
 
 .card {
-    width: 300px;
+    width: 345px;
     background-color: var(--Very-Dark-Magenta);
     color: var(--White);
     padding: 2rem;
